@@ -29,7 +29,7 @@ class Utilisateurs {
     // Vous pouvez spécifier des valeurs par défaut aux parametres de méthodes, si $index n'est pas défini, il vaudra 0.
     public function getOne($index = 0)
     {
-        return $this->usersLists[$index];
+        return $this->userLists[$index];
     }
 
     public function create()
@@ -44,7 +44,7 @@ class Utilisateurs {
     {
         if($this->checkLength($index))
         {
-            unset($this->usersLists[$index]);
+            unset($this->userLists[$index]);
             return true;
         }
         else
