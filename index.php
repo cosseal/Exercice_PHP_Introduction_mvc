@@ -19,7 +19,6 @@
         <a href="index.php?controller=utilisateurs&action=UserCreate">Ajouter un utilisateur puis les lister</a>
     </li>
 </ul>
-</body>
 
 <?php
 
@@ -69,6 +68,8 @@ switch($controller)
         break;
 }
 
+?>
+</body>
 
 
 
